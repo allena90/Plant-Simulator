@@ -1,0 +1,6 @@
+core
+dynamics
+gui
+solver
+thermo
+units

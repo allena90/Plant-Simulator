@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/core/__init__.py
+src/dynamics/__init__.py
+src/gui/__init__.py
+src/plant_simulation_software.egg-info/PKG-INFO
+src/plant_simulation_software.egg-info/SOURCES.txt
+src/plant_simulation_software.egg-info/dependency_links.txt
+src/plant_simulation_software.egg-info/requires.txt
+src/plant_simulation_software.egg-info/top_level.txt
+src/solver/__init__.py
+src/thermo/__init__.py
+src/units/__init__.py
