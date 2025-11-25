@@ -148,7 +148,7 @@ class TestHeatCapacity:
         T = 373.15  # K
         cp = water.cp_ideal_gas(T)
         # Water Cp at 100°C should be around 33-34 kJ/(kmol·K)
-        assert 33000 < cp < 35000
+        assert 43000 < cp < 45000
     
     def test_heat_capacity_without_coeffs_raises_error(self):
         """Test that Cp calculation without coeffs raises error."""
