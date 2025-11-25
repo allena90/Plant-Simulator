@@ -11,12 +11,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="plant-simulation-software",
     version="0.1.0-dev",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Allen Agullard",
+    author_email="aaguillard90@gmail.com",
     description="Educational chemical process simulation software",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/plant-simulation-software",
+    url="https://github.com/allena90/Plant-Simulation",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
