@@ -120,7 +120,7 @@ This is primarily a solo learning project, but feedback and suggestions are welc
 
 ## 📖 Documentation
 
-- [Project Timeline](docs/timeline.md) - Detailed 52-week development plan
+- [Project Timeline](docs/TIMELINE.md) - Detailed 52-week development plan
 - [Architecture Guide](docs/architecture.md) - System design and architecture (coming soon)
 - [User Manual](docs/user-manual.md) - User documentation (coming soon)
 - [API Reference](docs/api-reference.md) - Developer API documentation (coming soon)
