@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ## 📁 Project Structure
 
 ```
-plant-simulation-software/
+Plant Simulator/
 │
 ├──data/                            # Data
 │   └──components/                  # Component Property Database 
@@ -60,7 +60,9 @@ plant-simulation-software/
 ├──examples/                        # Mockups and Example Flowsheets
 │
 ├──notebooks/                       # Jupyter Notebooks for specific testing and application
+│
 ├──sandbox/                         # Python Scripts for specific testing and applications
+│
 ├──src/                             # Main Source Code
 │   ├──core/                        # Core data structures (streams, components)
 │   ├──dimanal/                     # Dimensional analysis utilities
