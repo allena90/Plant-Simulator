@@ -1,0 +1,126 @@
+###############################
+# Python
+###############################
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Python virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+htmlcov/
+.cache/
+.pytest_cache/
+nosetests.xml
+.junit.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy / static analysis
+.mypy_cache/
+.dmypy.json
+.pyre/
+pyrightconfig.json
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+.poetry/
+
+###############################
+# Sphinx / Documentation
+###############################
+
+docs/_build/
+docs/build/
+docs/.doctrees/
+docs/.cache/
+
+# Sphinx-generated HTML/PDF/LaTeX/Man files
+*.html
+*.pdf
+*.tex
+*.out
+*.toc
+*.log
+*.aux
+
+###############################
+# IDE / Editor Metadata
+###############################
+
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm / JetBrains IDEs
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~  
+
+###############################
+# OS-Specific
+###############################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+###############################
+# Logs
+###############################
+
+*.log
+logs/
+log/
+
+###############################
+# Project-Specific
+###############################
+
+# Temporary experiment scripts or scratchpads
+scratch/
+temp/
+tmp/
+
+# Outputs for simulations (if generated later)
+outputs/
+results/
+
+# Example auto-generated data (if used)
+data/generated/

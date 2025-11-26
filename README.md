@@ -52,22 +52,32 @@ pip install -r requirements.txt
 ```
 plant-simulation-software/
 │
-├── src/
-│   ├── core/              # Core data structures (streams, components)
-│   ├── thermo/            # Thermodynamic models and calculations
-│   ├── units/             # Unit operation modules
-│   ├── solver/            # Flowsheet solver algorithms
-│   ├── dynamics/          # Dynamic simulation engine
-│   └── gui/               # User interface
+├──data/                            # Data
+│   └──components/                  # Component Property Database 
 │
-├── data/
-│   └── components/        # Component property database
+├──docs/                            # Documentation
 │
-├── tests/                 # Unit and integration tests
-├── docs/                  # Documentation
-├── examples/              # Example flowsheets
-├── requirements.txt       # Project dependencies
-└── README.md
+├──examples/                        # Mockups and Example Flowsheets
+│
+├──notebooks/                       # Jupyter Notebooks for specific testing and application
+├──sandbox/                         # Python Scripts for specific testing and applications
+├──src/                             # Main Source Code
+│   ├──core/                        # Core data structures (streams, components)
+│   ├──dimanal/                     # Dimensional analysis utilities
+│   ├──dynamics/                    # Dynamic simulation engine
+│   ├──gui/                         # User Interface (planned)
+│   ├──solver/                      # Flowsheet solver algorithms
+│   ├──thermo/                      # Thermodynamic models and calculations
+│   └──units/                       # Unit operation modules
+│
+├──tests/                           # Unit and integration tests
+│
+├──README.md                        # Project overview and setup instructions
+│
+├──requirements.txt                 # Project dependencies
+│
+└──setup.py                          # Installation script
+
 ```
 
 ## 🛠️ Technology Stack
@@ -84,21 +94,22 @@ plant-simulation-software/
 
 ### Phase 0: Setup (Weeks 1-2) ✅ *Current Phase*
 - [x] Project planning and architecture
-- [ ] Version control setup
-- [ ] Development environment configuration
-- [ ] Initial documentation
+- [x] Version control setup
+- [x] Development environment configuration
+- [x] Initial documentation
 
 ### Phase 1: Foundation (Weeks 3-6)
-- [ ] Component database
-- [ ] Stream calculations
-- [ ] Basic thermodynamic models
+- [x] Component database
+- [x] Stream calculations
+- [x] Basic thermodynamic models
+- [x] Dimensional analysis utilities
 
 ### Phase 2: Unit Operations (Weeks 7-14)
 - [ ] Basic unit operations (mixer, splitter, heat exchanger, etc.)
 - [ ] Advanced unit operations (distillation, reactors, compressors)
 
 ### Phase 3-10: Advanced Features
-See [Project Timeline](docs/timeline.md) for detailed roadmap.
+See [Project Timeline](docs/TIMELINE.md) for detailed roadmap.
 
 ## 🧪 Current Status
 
@@ -119,11 +130,12 @@ This is primarily a solo learning project, but feedback and suggestions are welc
 5. Open a Pull Request
 
 ## 📖 Documentation
-
+- [Project Overview](README.md) - This file
 - [Project Timeline](docs/TIMELINE.md) - Detailed 52-week development plan
-- [Architecture Guide](docs/architecture.md) - System design and architecture (coming soon)
-- [User Manual](docs/user-manual.md) - User documentation (coming soon)
-- [API Reference](docs/api-reference.md) - Developer API documentation (coming soon)
+- [Architecture Guide](docs/ARCHITECTURE.md) - System design and architecture (coming soon)
+- [User Manual](docs/USER-MANUAL.md) - User documentation (coming soon)
+- [API Reference](docs/API-REFERENCE.md) - Developer API documentation (coming soon)
+- [Formating Guide](docs/FORMATING_GUIDE.md) - Code style and contribution guidelines
 
 ## 📝 License
 
@@ -137,8 +149,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Project Creator: [Your Name]  
-Project Link: [https://github.com/yourusername/plant-simulation-software](https://github.com/yourusername/plant-simulation-software)
+Project Creator: Allen Aguillard
+Project Link: [https://github.com/allena90/Plant-Simulator](https://github.com/allena90/Plant-Simulator)
 
 ---
 

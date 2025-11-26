@@ -40,10 +40,10 @@ This timeline outlines the development of an educational industrial plant simula
 
 ### Week 2: Development Environment Setup
 - [x] Install and configure development tools
-- [ ] Set up testing framework
-- [ ] Create CI/CD pipeline basics (optional for learning project)
-- [ ] Design database schema for component properties
-- [ ] Create project roadmap and milestones
+- [x] Set up testing framework
+- [x] Create CI/CD pipeline basics (optional for learning project)
+- [x] Design database schema for component properties
+- [x] Create project roadmap and milestones
 
 ### Deliverables
 - [x] Project charter document (README.md)
@@ -63,14 +63,14 @@ This timeline outlines the development of an educational industrial plant simula
 **Focus:** Create the foundation for storing and managing chemical compound data
 
 **Tasks:**
-- [ ] Design Component class structure
+- [x] Design Component class structure
   - Properties: Critical temperature (Tc), Critical pressure (Pc)
   - Acentric factor (ω), Molecular weight (MW)
   - Normal boiling point, melting point
   - Ideal gas heat capacity coefficients
-- [ ] Implement component property database (SQLite or JSON)
-- [ ] Create database import/export functionality
-- [ ] Implement search and retrieval methods
+- [x] Implement component property database (SQLite or JSON)
+- [x] Create database import/export functionality
+- [x] Implement search and retrieval methods
 - [ ] Add 50-100 common components
   - Water, common hydrocarbons (methane, ethane, propane, etc.)
   - Industrial gases (N2, O2, CO2, H2)
@@ -85,16 +85,16 @@ This timeline outlines the development of an educational industrial plant simula
 **Focus:** Develop the Stream class for material flow calculations
 
 **Tasks:**
-- [ ] Design Stream class
+- [x] Design Stream class
   - Temperature, Pressure
   - Composition (mole fractions, mass fractions)
   - Flow rates (molar, mass, volumetric)
   - Phase state (vapor, liquid, mixed)
-- [ ] Implement mass balance equations
-- [ ] Create component tracking system
-- [ ] Build stream mixing algorithms
-- [ ] Build stream splitting algorithms
-- [ ] Implement unit conversion utilities
+- [x] Implement mass balance equations
+- [x] Create component tracking system
+- [x] Build stream mixing algorithms
+- [x] Build stream splitting algorithms
+- [x] Implement unit conversion utilities
   - Temperature (C, F, K)
   - Pressure (Pa, bar, psi, atm)
   - Flow rates (kg/s, kmol/h, m³/h)
@@ -108,14 +108,14 @@ This timeline outlines the development of an educational industrial plant simula
 **Focus:** Implement fundamental thermodynamic calculations
 
 **Tasks:**
-- [ ] Implement ideal gas law (PV=nRT)
-- [ ] Add basic equations of state
+- [x] Implement ideal gas law (PV=nRT)
+- [x] Add basic equations of state
   - van der Waals EOS
   - Redlich-Kwong (RK) EOS
-- [ ] Implement vapor-liquid equilibrium
+- [x] Implement vapor-liquid equilibrium
   - Raoult's Law for ideal mixtures
   - Antoine equation for vapor pressure
-- [ ] Create flash calculation algorithms
+- [x] Create flash calculation algorithms
   - Isothermal flash
   - Adiabatic flash
 - [ ] Build property calculation framework
@@ -132,11 +132,11 @@ This timeline outlines the development of an educational industrial plant simula
 **Focus:** Ensure code quality and create initial documentation
 
 **Tasks:**
-- [ ] Write comprehensive unit tests
+- [x] Write comprehensive unit tests
   - Component class tests
   - Stream class tests
   - Thermodynamic calculation tests
-- [ ] Integration tests for workflows
+- [x] Integration tests for workflows
 - [ ] API documentation (Sphinx)
 - [ ] Create example calculations
 - [ ] Validate against literature data
