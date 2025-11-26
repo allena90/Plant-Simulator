@@ -27,7 +27,7 @@
 This project follows [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guidelines with the following specific conventions:
 
 - **Line Length:** Maximum 100 characters (not the PEP 8 default of 79)
-- **Indentation:** 4 spaces (no tabs)
+- **Indentation:** Tabs
 - **Encoding:** UTF-8
 - **Blank Lines:** 2 blank lines between top-level functions/classes, 1 blank line between methods
 
@@ -56,8 +56,8 @@ This module implements [major functionality]. It includes:
 - Feature 2
 - Feature 3
 
-Author: Plant Simulation Software Project
-Date: November 2025
+Author: Plant Simulation Software Project (if not owner, then contributor's name)
+Date: MMMM YYYY
 """
 ```
 
@@ -216,33 +216,32 @@ Example:
     >>> obj = SomeClass()
     >>> result = obj.method()
 
-Author: Plant Simulation Software Project
-Date: November 2025
+Author: Plant Simulation Software Project (or contributor's name)
+Date: MMMM YYYY
 """
 ```
 
 ### Class Docstrings
 
 ```python
-class Component:
+class MyClass:
     """
-    Represents a chemical component with thermodynamic properties.
-    
-    This class stores all relevant thermodynamic and physical properties
-    needed for process simulation calculations.
-    
+    Represents a [brief description of the class].
+
     Attributes:
-        name (str): Common name of the component
-        formula (str): Chemical formula
-        molecular_weight (float): Molecular weight in kg/kmol
-        critical_temperature (float): Critical temperature in K
-        critical_pressure (float): Critical pressure in Pa
-        
+        attribute_one (type): Description of attribute one.
+        attribute_two (type): Description of attribute two.
+        ...
+
     Example:
         >>> water = Component(
         ...     name="Water",
         ...     formula="H2O",
-        ...     molecular_weight=18.015
+        ...     cas_number="7732-18-5",
+        ...     molecular_weight=18.015,
+        ...     critical_temperature=647.1,
+        ...     critical_pressure=22.064e6,
+        ...     acentric_factor=0.345
         ... )
         >>> print(water.name)
         Water
@@ -252,31 +251,24 @@ class Component:
 ### Function/Method Docstrings
 
 ```python
-def calculate_vapor_pressure(temperature: float) -> float:
+def foo(arg1:type, arg2:type, ...) -> type:
     """
-    Calculate vapor pressure using Antoine equation.
-    
-    Uses the Antoine equation: log10(P) = A - B/(T+C)
-    where P is in Pa and T is in K.
+    Brief description of what the function does.
     
     Args:
-        temperature (float): Temperature in K
-        
+        arg1 (type): Description of arg1
+        arg2 (type): Description of arg2
+        ...
+    
     Returns:
-        float: Vapor pressure in Pa
+        type: Description of the return value
         
     Raises:
-        ValueError: If Antoine coefficients are not defined
-        Warning: If temperature is outside valid range
-        
-    Example:
-        >>> p_sat = calculate_vapor_pressure(373.15)
-        >>> print(f"P_sat = {p_sat:.2f} Pa")
-        P_sat = 101325.00 Pa
-        
+        ValueError: Condition of Value Error
+        Warning: Condition of Warning
+
     Note:
-        This uses the Antoine equation, which is valid only
-        within the specified temperature range.
+        Any additional notes about the function.
     """
 ```
 
@@ -536,7 +528,7 @@ tests/
 ├── test_component.py      # Tests for src/core/component.py
 ├── test_stream.py         # Tests for src/core/stream.py
 ├── test_thermo.py         # Tests for src/thermo/thermo.py
-└── test_dim.py           # Tests for src/dimanal/dim.py
+└── test_dim.py            # Tests for src/dimanal/dim.py
 ```
 
 ### Test Class Organization
@@ -548,8 +540,8 @@ Unit Tests for Component Module
 
 Tests for the Component class and related functions.
 
-Author: Plant Simulation Software Project
-Date: November 2025
+Author: Plant Simulation Software Project (or contributor's name)
+Date: MMMM YYYY
 """
 
 import pytest
