@@ -173,6 +173,7 @@ class Stream:
         Returns:
             float: Density in kg/m³
         """
+        
         R = 8314.46  # J/(kmol·K)
         return (self.pressure * self.molecular_weight()) / (R * self.temperature)
     
